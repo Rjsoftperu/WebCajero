@@ -30,13 +30,13 @@
             <br />
         <asp:Button ID="Button5" runat="server" Text="CAMBIO DE CLAVES" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClick_Cambio_clave"/> 
             <br />
-        <asp:Button ID="Button6" runat="server" Text="DEPOSITOS" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px"/> 
+        <asp:Button ID="Button6" runat="server" Text="DEPOSITOS" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClic_deposito"/> 
 
            <br />
-        <asp:Button ID="Button7" runat="server" Text="PAGOS" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px"/> 
+        <asp:Button ID="Button7" runat="server" Text="PAGOS" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClock_pagos"/> 
 
            <br />
-        <asp:Button ID="Button8" runat="server" Text="Salir" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px"/> 
+        <asp:Button ID="Button8" runat="server" Text="Salir" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClick_salir"/> 
        
             </div>
     </form>

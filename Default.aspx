@@ -52,14 +52,10 @@
                      </tr>
                 </Table>
             <div>
-                <asp:Button ID="txt1" runat="server" Text="ingresar a menu" OnClick="onClick_ingresar" />
+                <%--<asp:Button ID="txt1" runat="server" Text="ingresar a menu" OnClick="onClick_ingresar" />--%>
 
         </div>
-
-
-
-
-
+                
 <%--        <asp:Button ID="Button1" runat="server" Text="Button" />
 
         <button ID="onClicAcceso" runat="server" accesskey="onclick_htm">Acceso A admin </button>--%>

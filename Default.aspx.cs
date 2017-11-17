@@ -126,8 +126,8 @@ public partial class _Default : Page
         }
         else
         {
-            Response.Write("<script> alert('Hora : " + localDate.ToString() + "') </script>");
-            //Response.Write("<script> alert('Error del servidor') </script>");
+            //Response.Write("<script> alert('Hora : " + localDate.ToString() + "') </script>");
+            Response.Write("<script> alert('Error del servidor o password ') </script>");
         }
 
     }
