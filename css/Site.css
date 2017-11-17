@@ -30,3 +30,8 @@ textarea {
 .position{
     display:inline-flex;
 }
+
+.hola {
+color:yellow;
+font-size:15px;
+}
