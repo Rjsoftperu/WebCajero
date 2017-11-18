@@ -31,7 +31,6 @@ textarea {
     display:inline-flex;
 }
 
-.hola {
-color:yellow;
-font-size:15px;
-}
+.container{
+    text-align:center;
+   }
