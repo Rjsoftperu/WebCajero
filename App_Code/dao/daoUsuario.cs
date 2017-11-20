@@ -13,6 +13,7 @@ public class _daoUsuario{
         _usuario.Valida = _clsBD.getCampo() != null;
     }
 
+
     public int Bloquear_user(usuario _usuario)
     {
         _clsBD.SentenciaSQL("USP_BLOQUEAR_USUARIO");

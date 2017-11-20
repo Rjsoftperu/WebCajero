@@ -7,6 +7,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <webopt:bundlereference runat="server" path="~/css/css" />
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            height: 62px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -24,44 +29,44 @@
         </td>
         </tr>       
         <tr>        
-        <td align="center"><asp:Button ID="txtb20" runat="server" Text="20 SOLES" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px"/>  <br />
+        <td align="center"><asp:Button ID="txtb20" runat="server" Text="20 SOLES" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClick_Retiro"/>  <br />
         </td>
         <td>
         </td>
         <td>
-        <asp:Button ID="txtb50" runat="server" Text="50 SOLES" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px"/>  <br />
+        <asp:Button ID="txtb50" runat="server" Text="50 SOLES" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClick_Retiro"/>  <br />
         </td>
         </tr>
         <tr>        
-        <td align="center"><asp:Button ID="txtb100" runat="server" Text="100 SOLES" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px"/>  <br />
+        <td align="center"><asp:Button ID="txtb100" runat="server" Text="100 SOLES" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClick_Retiro"/>  <br />
         </td>
         <td>
         </td>
         <td>
-        <asp:Button ID="txtb200" runat="server" Text="200 SOLES " CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px"/>  <br />
+        <asp:Button ID="txtb200" runat="server" Text="200 SOLES " CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClick_Retiro"/>  <br />
         </td>
         </tr>
         <tr>        
-        <td align="center"><asp:Button ID="txtb250" runat="server" Text="250 SOLES" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px"/>  <br />
+        <td align="center" class="auto-style1"><asp:Button ID="txtb250" runat="server" Text="250 SOLES" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClick_Retiro"/>  <br />
         </td>
-        <td>
+        <td class="auto-style1">
         </td>
-        <td>
-        <asp:Button ID="txtb300" runat="server" Text="300 SOLES" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px"/>  <br />
+        <td class="auto-style1">
+        <asp:Button ID="txtb300" runat="server" Text="300 SOLES" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClick_Retiro"/>  <br />
         </td>
         </tr>
 <tr>        
-        <td align="center"><asp:Button ID="txtb500" runat="server" Text="500 SOLES " CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px"/>  <br />
+        <td align="center"><asp:Button ID="txtb500" runat="server" Text="500 SOLES " CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClick_Retiro"/>  <br />
         </td>
         <td>
         </td>
         <td>
-        <asp:Button ID="txtotrosmontos" runat="server" Text="OTROS MONTOS" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px"/>  <br />
+        <asp:Button ID="txtotrosmontos" runat="server" Text="OTROS MONTOS" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClick_Retiro"/>  <br />
         </td>
         </tr>
 
         <tr>        
-        <td align="center"><asp:Button ID="btnmenu" runat="server" Text="Menu" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px"/>  <br />
+        <td align="center"><asp:Button ID="btnmenu" runat="server" Text="Menu" CssClass="btn btn-lg btn-primary btn-block"  Height="40px" Width="200px" OnClick="onClick_Menu"/>  <br />
         </td>
         <td>
         </td>      
