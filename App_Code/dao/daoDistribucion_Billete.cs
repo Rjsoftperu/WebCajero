@@ -16,8 +16,8 @@ public class _daoDistribucion_Billete{
     {
         _clsBD.SentenciaSQL("USP_retirar_billetes");
         _clsBD.ParametrosSQL(nmonto, _billete.cantidad);
-        _billete.getRegistro();
-        //_clsBD.getDataSet();
+        //_billete.getRegistro();
+        _clsBD.getDataSet();
     }
 
 

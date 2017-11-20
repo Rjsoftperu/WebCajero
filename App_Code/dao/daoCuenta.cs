@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-
+using System.Data;
 public class _daoCuenta{
 
     clsBD _clsBD = new clsBD("cnCajero_web");
@@ -21,5 +21,7 @@ public class _daoCuenta{
     public void geConsultar_Saldo(cuenta _cuenta) {
         _clsBD.SentenciaSQL("USP_consultarSaldo"+_cuenta.ncuenta);
         _cuenta.setRegistro(_clsBD.getRegistro());
+        DataSet datos=_clsBD.getDataSet();
+
     }
 }
