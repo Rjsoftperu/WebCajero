@@ -10,10 +10,11 @@ public partial class Pages_Retiros : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e) { }
 
-        //private string Ntarjeta = Request.Params(" parametro");
+    //private string Ntarjeta = Request.Params(" parametro");
 
-   
-    private void Retirar_Billete(Double Monto) {
+
+    private void Retirar_Billete(Double Monto)
+    {
         _daoTarjeta daotarjt = new _daoTarjeta();
         _daoCuenta daocuenta = new _daoCuenta();
         _daoDistribucion_Billete daobillete = new _daoDistribucion_Billete();
@@ -28,6 +29,9 @@ public partial class Pages_Retiros : System.Web.UI.Page
         _tajeta.ntarjeta = Ntarjet.Trim();
         //ncuenta = _tajeta.ntarjet.Tables(0).Rows(0)(2).ToString();
         daotarjt.DtsConectados(_tajeta);
+
+    
+
 
 
         //Dim Ntarjet As String = Request.Params("parametro")
